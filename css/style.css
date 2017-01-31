@@ -1,10 +1,13 @@
 
-body
-{
-  background-image: url("b&w.jpg")
-   
-    
+body.home{
 
+    background: url("b&w.jpg")
+}
+
+
+body.Aboutme{
+
+  background: url("Aboutme.jpg")
 }
 
 .social a {
@@ -129,7 +132,7 @@ header h2 { color: #111;
 
      }
 
-     
+
 ul {
 
   list-style: :none;
@@ -139,14 +142,14 @@ ul {
 {
 
 font-family: 'Helvetica Neue', sans-serif;
- 
+
  width: 200px;
  height: 40px;
  float: bottom;
 
-  
+
  border-radius:15px;
- 
+
  }
 
  #menue a {
@@ -158,18 +161,19 @@ font-family: 'Helvetica Neue', sans-serif;
  .left
  {
 
-  
+
   float: top;
-  height: 150px;
+  height: 110px;
   margin: 0 10px 0 10px;
   border-radius: 999em;
   border: 10px solid #000;
   background: #000;
+
  }
 
 
- @media screen and (max-width: 960px) 
-{  
+ @media screen and (max-width: 960px)
+{
 
   #container
 
@@ -178,7 +182,7 @@ font-family: 'Helvetica Neue', sans-serif;
     width:100%;
     /*padding: 10px;*/
   }
- 
+
  #Title,#nav,#contact {
 
   width: 100%;
@@ -203,12 +207,18 @@ font-family: 'Helvetica Neue', sans-serif;
 p
 {
 
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 17px;
+                 text-transform: uppercase;
 
-padding-top: 70px;
-padding: 90px 0 ;
-border: groove;
+          color: #424242;
+          font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+   letter-spacing:0.1em;
+   text-align:center;
+   margin: 40px auto;
+   text-transform: lowercase;
+   line-height: 145%;
+   font-size: 14pt;
+   font-varian
+
 }
 
 p .I
@@ -223,5 +233,3 @@ p .I
   margin-right: 2px;
   font-family: serif;
 }
-
- 
