@@ -1,7 +1,11 @@
 
 body.home{
 
-    background: url("b&w.jpg")
+    background: url("b&w.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+  min-width: 500px;
 }
 
 
@@ -114,42 +118,31 @@ header h2 { color: #111;
 
     }
 
-     .small {
-       font-family: 'Helvetica Neue', sans-serif;
-        font-size: 50px;
-        font-weight: bold;
-         letter-spacing: -1px;
-          line-height: -1;
-          text-align: center;
-          word-spacing: -1px;
+   .small {
+     font-family: 'Helvetica Neue', sans-serif;
+     font-size: 50px;
+     font-weight: bold;
+     letter-spacing: -1px;
+     line-height: -1;
+     text-align: center;
+     word-spacing: -1px;
 
      }
-
-     .email{
-
-       word-spacing: 80px;
-
-
-     }
-
 
 ul {
 
-  list-style: :none;
+ list-style: :none;
   padding: 80px 0;
 }
+
 #menue ul li
 {
 
 font-family: 'Helvetica Neue', sans-serif;
-
  width: 200px;
  height: 40px;
  float: bottom;
-
-
  border-radius:15px;
-
  }
 
  #menue a {
@@ -157,79 +150,30 @@ font-family: 'Helvetica Neue', sans-serif;
     text-decoration: none;
 }
 
-
  .left
+
  {
-
-
   float: top;
-  height: 110px;
-  margin: 0 10px 0 10px;
+  height: 100px;
+  margin: -16px auto;
   border-radius: 999em;
-  border: 10px solid #000;
-  background: #000;
+  border: 17px solid #111;
+  background: #111;
 
  }
 
-
- @media screen and (max-width: 960px)
-{
-
-  #container
-
-  {
-
-    width:100%;
-    /*padding: 10px;*/
-  }
-
- #Title,#nav,#contact {
-
-  width: 100%;
-}
-
-}
-
-.clear{
-  clear:both;
-}
-
-#Welcome h1
-{
-   /* Using the custom font we've included in the HTML tab: */
-  font-family: Satisfy, cursive;
-  font-weight:normal;
-  font-size:70px;
-  padding-top: 60px;
-  padding: 390px 0
-}
-
 p
 {
-
-                 text-transform: uppercase;
-
-          color: #424242;
-          font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+   text-transform: uppercase;
+   color: #424242;
+   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
    letter-spacing:0.1em;
-   text-align:center;
-   margin: 40px auto;
+   text-align:right;
+   margin: 90px auto;
    text-transform: lowercase;
    line-height: 145%;
    font-size: 14pt;
    font-varian
 
-}
 
-p .I
-{
-  background-color: #666;
-  color: #FFF;
-  font-size: 24px;
-  font-style:normal;
-  display: inline-block;
-  padding: 0 5px;
-  border-radius: 3px;
-  margin-right: 2px;
-  font-family: serif;
 }
